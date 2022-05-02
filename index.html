@@ -7,24 +7,35 @@
 
 		<title>Music</title>
 
+        <link rel="stylesheet" href="styles.css">
+
 		<!-- external CSS link -->
 		<!-- <link rel="stylesheet" href="style.css"> -->
     </head>
     <body>
-        <h1>Type In An Artist</h1>
-        <input id="artist" type="text" >
-        <button type="button">Search</button>
+
+        <header>
+            <h1>Type In An Artist</h1>
+            <input id="artist" type="text" >
+            <button type="button">Search</button>
+            <button class="refresh" type="button">Refresh</button>
+
+        </header>
 
         <!-- From API with artist overview of their careers -->
         <section id="artist-overview">
             <h2 class="desired-artist"> </h2>
 
             <img src="" alt="">
+
+            <h2 id="background-heading"></h2>
+            <p class="artist-background"></p>
         </section>
 
         <!-- Artist discography API data displayed -->
         <section id="album-display">
-            
+            <h2 id="catalog-heading"></h2>
+            <h3 id="albums"></h3>
            <!-- <h4 class="albums"></h4>
            <h4 class="albums"></h4> -->
             <!-- <h2 id="album"> </h2>
