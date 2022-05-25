@@ -1,5 +1,41 @@
+body{
+    background-image: url(images/backgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300vh;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    color: white;
+}
+
+header{
+    
+    text-align: center;
+    align-items: center;
+    padding-top: 35px;
+    
+}
+
+section{
+    text-align: center;
+}
+section > p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
 
 #artist-overview > img{
     height: 400px;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px){
+    body{
+       background-size: cover;
+       background-position: center;
+    }
+
     
 }
